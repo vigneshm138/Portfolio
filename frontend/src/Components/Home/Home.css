@@ -1,0 +1,69 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 80vh;
+  gap: 26px;
+}
+
+.myPhoto {
+  max-width: 200px;
+  height: 200px;
+  position: relative;
+  border: transparent;
+}
+.arrow_byMy {
+  position: absolute;
+  top: -100px;
+  left: -180px;
+  transform: rotate(-30deg);
+}
+.myName_byMy {
+  position: absolute;
+  left: -369px;
+  top: -40px;
+  font-weight: 600;
+  font-size: 19px;
+  color: rgba(0, 0, 0, 0.562);
+  font-family: monospace;
+}
+.myName_byMy span {
+  color: #004792;
+  font-family: monospace;
+}
+.myPhoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.para_byD {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.para_byD span {
+  background: linear-gradient(to right, #87cefa, white);
+  padding: 3px 5px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 940px) {
+  .arrow_byMy {
+    top: -120px;
+    left: -100px;
+    transform: rotate(-30deg);
+  }
+  .myName_byMy {
+    left: 0%;
+    white-space: nowrap;
+  }
+  .arrow_byMy{
+    display: none;    
+  }
+  .para_byD{
+    line-height: 35px;
+    font-size: 18px;
+    text-align: center;
+  }
+}
