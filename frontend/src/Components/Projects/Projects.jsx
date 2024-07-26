@@ -1,7 +1,6 @@
 import React from "react";
 import "./Projects.css";
 import pro from "./pro.png";
-import { NavLink } from "react-router-dom";
 import { FiGithub } from "react-icons/fi";
 import { TbLivePhoto } from "react-icons/tb";
 
@@ -29,7 +28,6 @@ const Projects = () => {
             <a href=""><TbLivePhoto />live</a>
           </div>
         </div>
-        
       </div>
     </div>
   );
