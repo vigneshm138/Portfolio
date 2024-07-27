@@ -9,9 +9,14 @@ const Home = () => {
       <div className="myPhoto">
         <img src={me} alt="myPhoto" />
         <img src={arrow} className="arrow_byMy" />
-        <p className="myName_byMy">Hello! I Am <span>Vignesh M</span></p>
+        <p className="myName_byMy">
+          Hello! I Am <span>Vignesh M</span>
+        </p>
       </div>
-      <p className="para_byD"><span>MERN Stack Developer</span>, with knowledge in Frontend and Backend</p>
+      <p className="para_byD">
+        #Crafting cutting-edge web experiences with the power of the
+        <span>MERN Stack</span>.
+      </p>
     </div>
   );
 };

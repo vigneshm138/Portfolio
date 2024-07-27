@@ -4,6 +4,8 @@ import html from "./html.svg";
 import css from "./css.svg";
 import bootstarp from "./bootstarp.svg";
 import js from "./js.svg";
+import node from "./node1.svg";
+import express from "./express.svg";
 import react from "./react.svg";
 import mongoDB from "./mongoDB.svg";
 
@@ -30,6 +32,14 @@ const Skills = () => {
           <div className="skills_box">
             <img src={react} alt="html" />
           </div>
+          <div className="skills_box">
+            <img src={node} alt="html" />
+          </div>
+          <div className="skills_box">
+            <img src={express} alt="html" />
+          </div>
+        </div>
+        <div className="skill_box1">
           <div className="skills_box">
             <img src={mongoDB} alt="html" />
           </div>
