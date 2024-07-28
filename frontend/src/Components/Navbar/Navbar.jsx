@@ -23,9 +23,9 @@ const Navbar = () => {
             <IoClose />
           </button>
         </div>
-        <NavLink to="#home">home</NavLink>
-        <NavLink to="#about">about</NavLink>
-        <NavLink to="#projects">projects</NavLink>
+        <a href="#home_page">home</a>
+        <a href="#about_page">about</a>
+        <a href="#projects_page">projects</a>
       </div>
       <div className="navbar_openBtnDiv">
         <button

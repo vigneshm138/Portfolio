@@ -5,7 +5,7 @@ import arrow from "./arrow.svg";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home" id="home_page">
       <div className="myPhoto">
         <img src={me} alt="myPhoto" />
         <img src={arrow} className="arrow_byMy" />

@@ -15,9 +15,9 @@
 }
 .arrow_byMy {
   position: absolute;
-  top: -100px;
+  top: -66px;
   left: -180px;
-  transform: rotate(-30deg);
+  /* transform: */
 }
 .myName_byMy {
   position: absolute;

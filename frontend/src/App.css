@@ -7,4 +7,5 @@
 }
 .main_app{
   padding: 0 40px;
+  scroll-behavior: smooth;
 }

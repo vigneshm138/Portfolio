@@ -3,10 +3,10 @@ import "./Projects.css";
 import pro from "./pro.png";
 import { FiGithub } from "react-icons/fi";
 import { TbLivePhoto } from "react-icons/tb";
-
+  
 const Projects = () => {
   return (
-    <div className="projects_page">
+    <div className="projects_page" id="projects_page">
       <h1>Projects</h1>
       <div className="projects">
         <div className="project">
@@ -24,8 +24,14 @@ const Projects = () => {
             </p>
           </div>
           <div className="project_links">
-            <a href=""><FiGithub />code</a>
-            <a href=""><TbLivePhoto />live</a>
+            <a href="">
+              <FiGithub />
+              code
+            </a>
+            <a href="">
+              <TbLivePhoto />
+              live
+            </a>
           </div>
         </div>
       </div>
